@@ -105,3 +105,25 @@ footer{
     display:;
     text-align: center;
 }
+#m {
+
+    width: 300px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    animation: moveRight 10s linear infinite;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+  }
+
+  .k {
+    position: fixed;  
+    top: 0;
+    width: 100%;
+    background-color:white;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;  
+  }
